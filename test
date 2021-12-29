@@ -1,0 +1,26 @@
+#include <stdio.h>
+// Yaser Abulkhair
+int main()
+{
+   int N1 , N2 , sum , subtraction , multi ;
+double div;
+printf("Enter the N1 : ");
+scanf("%d",&N1);
+ printf("Enter the N2 :");
+ scanf("%d",&N2);
+
+sum = N1+N2;
+printf("the total is : %d\n ",sum);
+
+subtraction = N1-N2;
+printf("The subtraction of the two values is : %d\n",subtraction);
+
+multi = N1 * N2;
+printf("The multiplication result is : %d\n",multi);
+
+div = N1/N2;
+printf("The division result is:%0.1f\n", div);
+
+
+    return 0;
+}
